@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "gangas-google-ads": {
+      "command": "python3",
+      "args": ["/CAMINHO/DO/MCP/google-ads/server.py"],
+      "env": {"GOOGLE_ACCOUNT_PROFILE": "perfil-agencia", "MCP_READ_ONLY": "true"}
+    },
+    "gangas-ga4": {
+      "command": "python3",
+      "args": ["/CAMINHO/DO/MCP/google-analytics/server.py"],
+      "env": {"GOOGLE_ACCOUNT_PROFILE": "perfil-agencia", "MCP_READ_ONLY": "true"}
+    }
+  }
+}

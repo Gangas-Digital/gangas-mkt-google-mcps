@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+credentials*.json
+*token*.json
+*.pem
+*.key
+.DS_Store
+dist/
+node_modules/
+

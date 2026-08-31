@@ -1,0 +1,15 @@
+{
+  "name": "gangas-mkt-google-mcps",
+  "version": "0.1.0",
+  "services": {
+    "google_ads": {"label": "Google Ads", "directory": "google-ads", "default": true},
+    "ga4": {"label": "GA4", "directory": "google-analytics", "default": true},
+    "search_console": {"label": "Google Search Console", "directory": "google-search-console", "default": true},
+    "gtm": {"label": "Google Tag Manager", "directory": "google-tag-manager", "default": true}
+  },
+  "accounts": {
+    "armeniovganga@gmail.com": "perfil-agencia",
+    "armenioganga@gangas.pt": "perfil-gangas",
+    "armenioganga@dronline.com": "perfil-dronline"
+  }
+}
